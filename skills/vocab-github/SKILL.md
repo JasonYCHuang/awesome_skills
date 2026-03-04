@@ -33,6 +33,9 @@ See `references/cron-setup.md` for templates.
 - Daily vocab is stored as **markdown tables** with columns:
   - English: `1 | Word | Sentence | 中文`
   - German: `1 | Wort | Satz | 中文`
+- Constraints:
+  - Avoid repeating any past words in the log history.
+  - Use **present tense only** in example sentences.
 - Weekly merge writes to:
   - `vocab_en/<year>/w<week>.md`
   - `vocab_de/<year>/w<week>.md`
