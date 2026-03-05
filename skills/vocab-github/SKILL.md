@@ -31,8 +31,8 @@ See `references/cron-setup.md` for templates.
 
 ## Format requirements (current)
 - Daily vocab is stored as **markdown tables** with columns:
-  - English: `1 | Word | Sentence | 中文`
-  - German: `1 | Wort | Satz | 中文`
+  - English: `1 | Word | Sentence | 中文 | 德文`
+  - German: `1 | Wort | Satz | 中文 | 英文`
 - Constraints:
   - Avoid repeating any past words in the log history.
   - Use **present tense only** in example sentences.
